@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Hello world!";
+    int a=32;
+    float pi=3.14;
+    char letter='a'
+    bool israining=true;
+    double temp=23.5242;
+    cout<<a;
+    return 0;
+}
