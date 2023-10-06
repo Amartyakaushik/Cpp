@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int glo=34;
+void sum(){
+        int a;
+}
+
+int main() {
+    //VARIABLE SCOPE
+    int b=9;
+    int glo=98;//local variable
+    sum();
+    cout<<glo;//local variable has higher precidence than global
+    return 0;
+}
