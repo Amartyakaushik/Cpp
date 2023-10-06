@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    //INPUT/OUTPUT
+    int num1,num2;
+    cout<<"Enter num1: ";//"<<" is an insertion operator
+    cin>>num1;//">>" is an extraction operator
+    
+   // cout<<"Enter num2: ";
+   // cin>>num2;
+    
+    //cout<<"sum of "<<num1<<" and "<<num2<<" is: "<<num1+num2;
+
+    return 0;
+}
