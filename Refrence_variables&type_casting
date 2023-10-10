@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int c=24; //Global variable
+int main(){
+    // //BUIT IN DATA TYPES
+    // int a,b,c;
+    // cout<<"enter the value of a: ";
+    // cin>>a;
+    // cout<<"enter the value of b: ";
+    // cin>>b;                                          //the local variable value of c is priorties
+    // c=a+b;
+    // cout<<"the sum of a and b is: "<<a+b<<endl;
+    // cout<<"the global value of c is: "<<::c;        // the gobal value of the variable is called here
+
+// //FLOAT,DOUBLE AND LONG DOUBLE LITERALS
+    // float x=23f;   // 'f' used to define literals of float
+    // long double y=23l;    // 'l' used to define literals of long double
+    // cout<<"size of 45.6f: "<<sizeof(45.6f)<<endl;
+    // cout<<"size of 45.7F: "<<sizeof(45.7F)<<endl;
+    // cout<<"size of 45.7l: "<<sizeof(45.7l)<<endl;
+    // cout<<"size of 45.7L: "<<sizeof(45.7L)<<endl;
+
+    //REFRENCE variable
+    // float s=45.22;
+    // float &w=s;
+    // cout<<"the value of s: "<<s<<endl;
+    // cout<<"the value of w: "<<w<<endl;
+
+    //TYPE CASTING
+    int a=45;
+    float b=45.7;
+    cout<<"the value of a: "<<float(a)<<endl;
+    cout<<"the value of b: "<<int(b)<<endl;
+
+    cout<<"the expression is: "<<a+int(b)<<endl;
+    cout<<"the expression is: "<<a+b<<endl;
+    cout<<"the expression is: "<<a+(int)b<<endl;
+}
