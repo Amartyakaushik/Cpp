@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+//Function and it's prototypes
+//Function prototypes- function declaration
+// int sum(int a,b); //not Acceptable
+int sum(int a, int b);   //Acceptable
+
+// void g();//Acceptable
+void g(void);//Acceptable
+
+int main(){
+    int x,y;
+    cout<<"Enter the value of x:"<<endl;
+    cin>>x;
+    cout<<"Enter the value of y:"<<endl;
+    cin>>y;
+    
+    cout<<"the sum will be: "<<sum(x,y)<<endl;
+    
+}
+
+//function definition
+int sum(int a,int b){
+    int c=a+b;
+    return c;
+}
+
+void g(){
+    cout<<"HELLO"<<endl;
+}
